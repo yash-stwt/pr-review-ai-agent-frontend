@@ -54,21 +54,6 @@ cd ai-code-reviewer-frontend
 
 ---
 
-## ⚙️ Installation & Setup
 
-### 2️⃣ Install dependencies
-```bash
-npm install
 
-### 2️⃣ Install dependencies
 
-```bash
-npm install
-
-### 3️⃣ Run the application
-
-```bash
-npm run dev
-
-App will run on:
-http://localhost:5173
