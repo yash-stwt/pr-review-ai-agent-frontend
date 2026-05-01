@@ -1,53 +1,64 @@
 # 🚀 AI Code Reviewer Frontend
 
-A modern React-based frontend application that enables developers to analyze pull requests (PRs) using AI. It allows users to paste a Git diff or fetch a PR directly from GitHub and get instant insights on:
-
-- 🐞 Bugs  
-- 🔐 Security issues  
-- 📉 Code quality  
-- 💡 Suggested improvements  
+An AI-powered web application that analyzes GitHub pull requests and Git diffs to identify bugs, security issues, and code quality improvements.
 
 ---
 
-## 📌 Features
+## 📸 Screenshots
+
+<p align="center">
+  <img src="./screenshots/home.png" width="45%" />
+  <img src="./screenshots/result.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="./screenshots/improvements.png" width="45%" />
+  <img src="./screenshots/github-pr.png" width="45%" />
+</p>
+
+---
+
+## ✨ Features
 
 - 🔍 AI-powered code review  
-- 📂 Paste Git diff or fetch GitHub PR  
-- 📊 Risk score calculation (0–100)  
-- 🛠️ Detailed categorized issues  
-- ⚡ Auto-generated code improvement suggestions  
-- 🧠 Smart parsing of diff to show before vs after code  
+- 📂 Analyze Git diff or GitHub PR  
+- 📊 Risk score generation  
+- 🐞 Bug detection  
+- 🔐 Security issue detection  
+- 📉 Code quality analysis  
+- 💡 AI-based suggestions  
 
 ---
 
 ## 🏗️ Tech Stack
 
-- **Frontend:** React 18  
-- **Build Tool:** Vite  
-- **Styling:** CSS  
-- **API Integration:** REST APIs  
+- Frontend: React + Vite  
+- Styling: CSS  
+- API: REST APIs  
+- Backend: Spring Boot  
+- AI: Groq / LLM  
 
 ---
 
 ## 📁 Project Structure
-ai-code-reviewer-frontend/
-│── src/
-│ ├── App.jsx # Main application logic
-│ ├── main.jsx # Entry point
-│ ├── styles.css # Styling
-│
-│── index.html
-│── package.json
-│── vite.config.js
-
-
-
----
-## ⚙️ Installation & Setup
-
-### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-code-reviewer-frontend.git
-cd ai-code-reviewer-frontend
+ai-code-reviewer-frontend/
+├── src/
+│   ├── components/
+│   ├── services/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
+├── screenshots/
+│   ├── home.png
+│   ├── result.png
+│   ├── improvements.png
+│   └── github-pr.png
+│
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
