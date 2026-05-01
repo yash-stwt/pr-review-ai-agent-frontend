@@ -209,6 +209,12 @@ textarea {
   gap: 12px;
 }
 
+.change-grid {
+  margin-top: 14px;
+  display: grid;
+  gap: 12px;
+}
+
 .result-card {
   border: 1px solid var(--border);
   border-radius: 12px;
@@ -218,6 +224,45 @@ textarea {
 
 .result-card h3 {
   margin: 0 0 10px;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.subtitle-text {
+  margin: 0;
+  color: var(--muted);
+}
+
+.change-card h3 {
+  margin-bottom: 6px;
+}
+
+.code-block-wrap {
+  margin-top: 10px;
+}
+
+.code-block-wrap h4 {
+  margin: 0 0 6px;
+  color: #d3dbff;
+  font-size: 13px;
+}
+
+.code-block-wrap pre {
+  margin: 0;
+  border: 1px solid #313a5d;
+  background: #0d1324;
+  border-radius: 10px;
+  padding: 10px;
+  overflow-x: auto;
+  color: #dfe7ff;
+  font-size: 13px;
+  line-height: 1.45;
+  white-space: pre-wrap;
 }
 
 ul {
