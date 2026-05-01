@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-const API_BASE_URL = "http://localhost:8081/api";
+const API_BASE_URL = "https://pr-review-ai-agent-pghm.onrender.com/api";
 
 function IssueList({ items }) {
   if (!items.length) {
