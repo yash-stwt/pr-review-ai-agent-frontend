@@ -51,4 +51,3 @@ ai-code-reviewer-frontend/
 git clone https://github.com/your-username/ai-code-reviewer-frontend.git
 cd ai-code-reviewer-frontend
 
----
