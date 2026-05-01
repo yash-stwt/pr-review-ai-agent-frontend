@@ -43,7 +43,6 @@ ai-code-reviewer-frontend/
 
 
 ---
-
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
@@ -53,7 +52,4 @@ git clone https://github.com/your-username/ai-code-reviewer-frontend.git
 cd ai-code-reviewer-frontend
 
 ---
-
-
-
 
