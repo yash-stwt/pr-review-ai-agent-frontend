@@ -50,6 +50,6 @@ ai-code-reviewer-frontend/
 ```bash
 git clone https://github.com/your-username/ai-code-reviewer-frontend.git
 cd ai-code-reviewer-frontend
+<img width="1914" height="988" alt="Screenshot 2026-05-01 183932" src="https://github.com/user-attachments/assets/2fa853d7-2774-4ce0-9824-fe4dc31de6e3" />
 
----
 
