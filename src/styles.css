@@ -1,0 +1,289 @@
+:root {
+  color-scheme: dark;
+  --bg: #080b14;
+  --card: #111625;
+  --card-soft: #171d30;
+  --text: #ecf0ff;
+  --muted: #98a2c9;
+  --primary: #5f8bff;
+  --primary-strong: #396efe;
+  --border: #29304a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Segoe UI, Roboto, Arial, sans-serif;
+  background: radial-gradient(circle at top right, #1a2340, #080b14 45%);
+  color: var(--text);
+}
+
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.hero {
+  background: linear-gradient(135deg, #11162b, #0f1430);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.badge {
+  color: #b3c4ff;
+  margin: 0;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+h1 {
+  margin: 8px 0 10px;
+  font-size: 34px;
+}
+
+.subtitle {
+  margin: 0;
+  max-width: 760px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.tabs {
+  display: inline-flex;
+  background: #0d1324;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.tab-btn {
+  border: 0;
+  color: var(--muted);
+  background: transparent;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  color: var(--text);
+  background: #1a2540;
+}
+
+.tab-panel {
+  margin-top: 14px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  color: #d3dbff;
+}
+
+textarea,
+input {
+  width: 100%;
+  border: 1px solid var(--border);
+  background: #0e1322;
+  color: var(--text);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font: inherit;
+}
+
+textarea {
+  min-height: 280px;
+  resize: vertical;
+}
+
+.form-row {
+  margin-top: 12px;
+}
+
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.align-end {
+  display: flex;
+  align-items: flex-end;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.btn {
+  border: 0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: var(--primary-strong);
+}
+
+.btn-secondary {
+  background: #202c4f;
+  color: #dbe4ff;
+}
+
+.btn-ghost {
+  background: #161e35;
+  color: #b7c3ed;
+}
+
+.btn:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.note {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.score-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid var(--border);
+  background: var(--card-soft);
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+
+.score {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.score span {
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.result-grid {
+  margin-top: 14px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.result-card {
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--card-soft);
+  padding: 12px;
+}
+
+.result-card h3 {
+  margin: 0 0 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+.issue-item {
+  border: 1px solid #313a5d;
+  border-radius: 10px;
+  padding: 10px;
+  background: #121a31;
+}
+
+.issue-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.severity {
+  font-size: 11px;
+  border-radius: 999px;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  border: 1px solid transparent;
+}
+
+.severity.high {
+  color: #ffd9dd;
+  background: #5b1f29;
+  border-color: #8d2e3f;
+}
+
+.severity.medium {
+  color: #ffe8c8;
+  background: #5f4421;
+  border-color: #906431;
+}
+
+.severity.low {
+  color: #d7ffe8;
+  background: #1d4b34;
+  border-color: #2b7751;
+}
+
+.description {
+  margin: 0;
+  color: #c5d1ff;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+@media (max-width: 980px) {
+  .content-grid,
+  .result-grid,
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    flex-direction: column;
+  }
+}
