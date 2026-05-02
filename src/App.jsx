@@ -15,8 +15,7 @@ import {
   Cell
 } from "recharts";
 
-// const API_BASE_URL = "https://pr-review-ai-agent-pghm.onrender.com/api";
-const API_BASE_URL = "http://localhost:8081/api";
+const API_BASE_URL = "https://pr-review-ai-agent-pghm.onrender.com/api";
 const RISK_HISTORY_KEY = "ai-review-risk-history";
 const TEAM_ANALYTICS_KEY = "ai-review-team-analytics";
 
